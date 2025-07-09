@@ -5,8 +5,6 @@
 **Technologien:** MySQL, SQL, Python (Streamlit) 
 **Status:** 📊 Abgeschlossen
 
-![Demo](./olympics_streamlit_dashboard/demo.GIF)
-
 ---
 
 ## 📌 Projektbeschreibung  
@@ -19,6 +17,8 @@ Ziel ist es, die Struktur der Spiele verständlich zu modellieren und analytisch
 ## 📊 Streamlit Dashboard zur Datenvisualisierung
 
 Zusätzlich zum SQL-Projekt wurde ein interaktives Dashboard mit Streamlit entwickelt, um die Olympischen Spieldaten visuell und interaktiv zu erkunden.
+
+![Demo](./olympics_streamlit_dashboard/demo.GIF)
 
 ### Inhalt:
 - Visualisierung von Athleten, Ländern, Sportarten und Events
