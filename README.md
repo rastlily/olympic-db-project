@@ -5,7 +5,7 @@
 **Technologien:** MySQL, SQL, Python (Streamlit) 
 **Status:** 📊 Abgeschlossen
 
-![Demo](./streamlit_dashboard/demo.gif)
+![Demo](./olympics_streamlit_dashboard/demo.gif)
 
 ---
 
