@@ -2,7 +2,7 @@
 
 **Autor:** Liliia Rastorhuieva  
 **Datenbank:** MySQL  
-**Technologien:** MySQL, SQL, Python (Streamlit) 
+**Technologien:** MySQL, SQL, Python (Streamlit)  
 **Status:** 📊 Abgeschlossen
 
 ---
@@ -95,9 +95,9 @@ Das Projekt umfasst Abfragen wie:
 ✔️ Arbeit mit relationalen Verknüpfungen (FOREIGN KEY)  
 ✔️ Import von Daten aus Excel/CSV in MySQL  
 ✔️ Komplexe SQL-Analysen (JOIN, GROUP BY, Subqueries, Aggregationen)  
-✔️ DDL und DML-Befehle in der Praxis
-✔️ Visualisierung von Daten mit Streamlit, Plotly und Pandas
-✔️ Erstellung eines interaktiven Dashboards
+✔️ DDL und DML-Befehle in der Praxis  
+✔️ Visualisierung von Daten mit Streamlit, Plotly und Pandas  
+✔️ Erstellung eines interaktiven Dashboards  
 
 ---
 
@@ -120,10 +120,10 @@ Das Projekt umfasst Abfragen wie:
 
 ## 🚀 So startest du  
 1️⃣ Struktur und Basistabellen erstellen:  
-`olympische_spiele_datenbank.sql`
+`CREATE_DATABASE_olympics`
 
-2️⃣ Analysen durchführen:  
-`olympische_spiele_queries.sql`
+2️⃣ Daten importieren:  
+`LOAD_DATA_to_db_olympics`
 
 ---
 
