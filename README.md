@@ -5,6 +5,8 @@
 **Technologien:** MySQL, SQL, Python (Streamlit) 
 **Status:** 📊 Abgeschlossen
 
+![Demo](./streamlit_dashboard/demo.gif)
+
 ---
 
 ## 📌 Projektbeschreibung  
@@ -23,6 +25,17 @@ Zusätzlich zum SQL-Projekt wurde ein interaktives Dashboard mit Streamlit entwi
 - Dynamische Diagramme mit Plotly
 - Datenimport aus CSV-Dateien
 - Benutzerfreundliche Oberfläche zur Datenanalyse
+  
+### Ordnerstruktur für die Visualisierung:
+- `streamlit_dashboard/app.py` — Hauptanwendung
+- `streamlit_dashboard/requirements.txt` — benötigte Python-Bibliotheken
+- `streamlit_dashboard/` — CSV-Daten, die vom Dashboard genutzt werden
+
+### Starten der App:
+1. Umgebung mit `pip install -r streamlit_dashboard/requirements.txt` vorbereiten  
+2. Streamlit-App starten mit:  
+   ```bash
+   streamlit run streamlit_dashboard/app.py
 
 ---
 
@@ -111,19 +124,6 @@ Das Projekt umfasst Abfragen wie:
 
 2️⃣ Analysen durchführen:  
 `olympische_spiele_queries.sql`
-
----
-
-### Ordnerstruktur für die Visualisierung:
-- `streamlit_dashboard/app.py` — Hauptanwendung
-- `streamlit_dashboard/requirements.txt` — benötigte Python-Bibliotheken
-- `streamlit_dashboard/` — CSV-Daten, die vom Dashboard genutzt werden
-
-### Starten der App:
-1. Umgebung mit `pip install -r streamlit_dashboard/requirements.txt` vorbereiten  
-2. Streamlit-App starten mit:  
-   ```bash
-   streamlit run streamlit_dashboard/app.py
 
 ---
 
