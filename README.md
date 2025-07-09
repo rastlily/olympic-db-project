@@ -2,7 +2,7 @@
 
 **Autor:** Liliia Rastorhuieva  
 **Datenbank:** MySQL  
-**Sprache:** SQL  
+**Technologien:** MySQL, SQL, Python (Streamlit) 
 **Status:** 📊 Abgeschlossen
 
 ---
@@ -14,19 +14,33 @@ Ziel ist es, die Struktur der Spiele verständlich zu modellieren und analytisch
 
 ---
 
+## 📊 Streamlit Dashboard zur Datenvisualisierung
+
+Zusätzlich zum SQL-Projekt wurde ein interaktives Dashboard mit Streamlit entwickelt, um die Olympischen Spieldaten visuell und interaktiv zu erkunden.
+
+### Inhalt:
+- Visualisierung von Athleten, Ländern, Sportarten und Events
+- Dynamische Diagramme mit Plotly
+- Datenimport aus CSV-Dateien
+- Benutzerfreundliche Oberfläche zur Datenanalyse
+
+---
+
 ## 🗂️ Projektaufgaben  
 - Entwurf eines vollständigen Entity-Relationship-Diagramms (ERD) für eine normalisierte Datenstruktur.
 - Erstellung einer Arbeitsversion der Datenbank mit 4 Kern-Tabellen für den praktischen Import und die Analyse.
 - Durchführung von SQL-Abfragen zur Auswertung der Olympiadaten.
+- Entwicklung eines interaktiven Dashboards mit Streamlit zur Visualisierung der Analyseergebnisse.
 
 ---
 
-## 🎯 Hauptziele des Projekts  
+## 🎯 Hauptziele des Projekts 
 ✅ Entwurf eines normalisierten Schemas (ERD)  
 ✅ Arbeit mit Relationen (FOREIGN KEY, JOINs)  
 ✅ Import und Pflege realer Daten (CSV/Excel)  
 ✅ Erstellung analytischer SQL-Abfragen  
 ✅ Praxis mit DDL (CREATE, ALTER) und DML (INSERT, UPDATE, DELETE)
+✅ Entwicklung eines interaktiven Dashboards mit Streamlit
 
 ---
 
@@ -69,12 +83,14 @@ Das Projekt umfasst Abfragen wie:
 ✔️ Import von Daten aus Excel/CSV in MySQL  
 ✔️ Komplexe SQL-Analysen (JOIN, GROUP BY, Subqueries, Aggregationen)  
 ✔️ DDL und DML-Befehle in der Praxis
+✔️ Visualisierung von Daten mit Streamlit, Plotly und Pandas
+✔️ Erstellung eines interaktiven Dashboards
 
 ---
 
 ## 🧩 Tech-Stack  
 - **Datenbank:** MySQL  
-- **Tools:** MySQL Workbench, Excel/Google Sheets  
+- **Tools:** MySQL Workbench, Excel/Google Sheets, Streamlit  
 - **Sprache:** SQL (DDL, DML, DCL)
 
 ---
@@ -83,7 +99,9 @@ Das Projekt umfasst Abfragen wie:
 ✅ Zeigt Fähigkeit zur Modellierung realer Prozesse  
 ✅ Belegt praktischen Umgang mit Normalisierung und Fremdschlüsseln  
 ✅ Enthält Business-relevante Analysen  
-✅ Eignet sich als Referenz für Bewerbungen im Data-Bereich
+✅ Eignet sich als Referenz für Bewerbungen im Data-Bereich  
+✅ Demonstriert praktische Visualisierung mit Python & Streamlit  
+✅ Verbindet Datenbank und interaktive Auswertung in einem Projekt
 
 ---
 
@@ -93,6 +111,19 @@ Das Projekt umfasst Abfragen wie:
 
 2️⃣ Analysen durchführen:  
 `olympische_spiele_queries.sql`
+
+---
+
+### Ordnerstruktur für die Visualisierung:
+- `streamlit_dashboard/app.py` — Hauptanwendung
+- `streamlit_dashboard/requirements.txt` — benötigte Python-Bibliotheken
+- `streamlit_dashboard/` — CSV-Daten, die vom Dashboard genutzt werden
+
+### Starten der App:
+1. Umgebung mit `pip install -r streamlit_dashboard/requirements.txt` vorbereiten  
+2. Streamlit-App starten mit:  
+   ```bash
+   streamlit run streamlit_dashboard/app.py
 
 ---
 
