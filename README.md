@@ -67,20 +67,6 @@ Diese Trennung zeigt den Unterschied zwischen Konzept (vollständig normalisiert
 
 ---
 
-## 🗂️ Tabellen in der Arbeitsversion  
-| Tabelle   | Beschreibung                  |
-|-----------|--------------------------------|
-| Athlet    | Athleten-Daten                |
-| Land      | Länderinformationen           |
-| Sportart  | Disziplinen der Spiele        |
-| Event     | Einzelne Wettkämpfe/Events    |
-
-**In der erweiterten ERD-Version zusätzlich enthalten:**  
-- Medaille — Medaillentypen  
-- Teilnahme — Zuordnung Athlet/Event/Medaille
-
----
-
 ## 🔍 Beispielhafte Analysen  
 Das Projekt umfasst Abfragen wie:  
 - Anzahl der Athleten pro Land  
