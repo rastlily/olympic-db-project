@@ -27,21 +27,24 @@ Zusätzlich zum SQL-Projekt wurde ein interaktives Dashboard mit Streamlit entwi
 - Benutzerfreundliche Oberfläche zur Datenanalyse
   
 ### Ordnerstruktur für die Visualisierung:
-- `streamlit_dashboard/app.py` — Hauptanwendung
-- `streamlit_dashboard/requirements.txt` — benötigte Python-Bibliotheken
-- `streamlit_dashboard/` — CSV-Daten, die vom Dashboard genutzt werden
+- `olympics_streamlit_dashboard/app.py` — Hauptanwendung
+- `olympics_streamlit_dashboard/requirements.txt` — benötigte Python-Bibliotheken
+- `CREATE_DATABASE_olympics.sql` — SQL-Skript zur Erstellung der Grundtabellen der Datenbank
+- `LOAD_DATA_to_db_olympics.sql` — SQL-Skript zum Laden der Daten in die Datenbank
+- `ERD_Olimpische_Spiele.sql` — Datenbank-Relationsmodell
+
 
 ### Starten der App:
-1. Umgebung mit `pip install -r streamlit_dashboard/requirements.txt` vorbereiten  
+1. Umgebung mit `pip install -r olympics_streamlit_dashboard/requirements.txt` vorbereiten  
 2. Streamlit-App starten mit:  
    ```bash
-   streamlit run streamlit_dashboard/app.py
+   streamlit run olympics_streamlit_dashboard/app.py
 
 ---
 
 ## 🗂️ Projektaufgaben  
 - Entwurf eines vollständigen Entity-Relationship-Diagramms (ERD) für eine normalisierte Datenstruktur.
-- Erstellung einer Arbeitsversion der Datenbank mit 4 Kern-Tabellen für den praktischen Import und die Analyse.
+- Erstellung einer Arbeitsversion der Datenbank für den praktischen Import und die Analyse.
 - Durchführung von SQL-Abfragen zur Auswertung der Olympiadaten.
 - Entwicklung eines interaktiven Dashboards mit Streamlit zur Visualisierung der Analyseergebnisse.
 
