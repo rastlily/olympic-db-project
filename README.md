@@ -1,4 +1,4 @@
-# Olympics SQL Project  
+# Olympics SQL & Streamlit Interactive Dashboard  
 
 **Goal:**  
 
@@ -12,11 +12,15 @@ Analyze athlete participation, country performance, and medal trends using SQL q
 
 ### ERD Design --> Database Creation --> Data Loading --> Query Development --> Visualization & Insights  
 
-Follow the detailed workflow and analysis in the project notebook: [Open Full Notebook](notebook.ipynb)  
+- Follow the detailed workflow and analysis in the project notebook: [Open Full Notebook](notebook.ipynb)  
 
-**Tech Stack:** MySQL, Python, Pandas, NumPy, Streamlit, Plotly  
+**Tech Stack:**  
+
+MySQL, Python, Pandas, NumPy, Streamlit, Plotly  
 
 **Visualization:**  
+
+ - Interactive Streamlit dashboard displaying athlete participation, medal distribution, age trends, top countries, and historical medal trends.
 
 ![Demo](./olympics_streamlit_dashboard/demo.GIF)
 
