@@ -1,12 +1,10 @@
 # Olympics SQL & Streamlit Interactive Dashboard  
 
-**Goal:**  
+**Objective:**
 
-Demonstrate practical SQL skills by designing, implementing, and analyzing a relational database of Olympic Games data.  
+Design, implement, and analyze a relational database of Olympic Games data using SQL, and extract actionable insights on athlete participation, country performance, and medal trends through queries of varying complexity (basic, intermediate, advanced).  
 
-**Problem Statement:**  
-
-Analyze athlete participation, country performance, and medal trends using SQL queries of varying complexity (basic, intermediate, advanced) to extract actionable insights.  
+![](./olympics_streamlit_dashboard/olimpics.jpeg)
 
 **Workflow:**  
 
