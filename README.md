@@ -12,9 +12,9 @@ Design, implement, and analyze a relational database of Olympic Games data using
 
 - Follow the detailed workflow and analysis in the project notebook: [Open Full Notebook](notebook.ipynb)  
 
-**Tech Stack:**  
+**Tech Stack:**  MySQL, Python, Pandas, NumPy, Streamlit, Plotly  
 
-MySQL, Python, Pandas, NumPy, Streamlit, Plotly  
+**Analysis type:** Descriptive, Comparative, Trend & Distribution analysis
 
 **Visualization:**  
 
