@@ -4,7 +4,7 @@
 
 Design, implement, and analyze a relational database of Olympic Games data using SQL, and extract actionable insights on athlete participation, country performance, and medal trends through queries of varying complexity (basic, intermediate, advanced).  
 
-![](./olympics_streamlit_dashboard/olimpics.jpeg)
+![](./olympics_streamlit_dashboard/olympics.jpeg)
 
 **Workflow:**  
 
