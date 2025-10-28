@@ -14,7 +14,7 @@ Follow the detailed workflow and analysis in the project notebook: [Open Full No
 
 **Data Overview:**  
 
-~284,000 rows across 4 tables (athletes, events, countries, athlete_events)
+~284000 rows across 4 tables (athletes, events, countries, athlete_events)
 
 **Tech Stack:**  MySQL, Python, Pandas, NumPy, Streamlit, Plotly  
 
@@ -22,7 +22,7 @@ Follow the detailed workflow and analysis in the project notebook: [Open Full No
 
 **Visualization:**  
 
- - Interactive Streamlit dashboard displaying athlete participation, medal distribution, age trends, top countries, and historical medal trends.
+Interactive Streamlit dashboard displaying athlete participation, medal distribution, age trends, top countries, and historical medal trends.
 
 ![Demo](./olympics_streamlit_dashboard/demo.GIF)
 
