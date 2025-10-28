@@ -6,11 +6,15 @@ Design, implement, and analyze a relational database of Olympic Games data using
 
 ![](./olympics_streamlit_dashboard/olympics.jpeg)
 
+**Data Overview:**  
+
+~284,000 rows across 4 tables (athletes, events, countries, athlete_events)
+
 **Workflow:**  
 
 ### ERD Design --> Database Creation --> Data Loading --> Query Development --> Visualization & Insights  
 
-- Follow the detailed workflow and analysis in the project notebook: [Open Full Notebook](notebook.ipynb)  
+Follow the detailed workflow and analysis in the project notebook: [Open Full Notebook](notebook.ipynb)  
 
 **Tech Stack:**  MySQL, Python, Pandas, NumPy, Streamlit, Plotly  
 
